@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      body{
+		background-color:darkcyan;
+		font-family:"ink free";
+	}
+	
+	
+	h1{
+		width:900px; /* sets the size of the element. will work only for block element*/
+		background-color:white;
+		padding:30px; /* creates space inside the box */
+		text-align:center;
+		font-size:48px;
+		margin:auto; /* center align the box, will work only if width is set*/
+	}
+	
+	/* nav bar style */
+	nav{
+		background-color:black;
+		width:900px;
+		text-align:center;
+		margin:auto;
+		padding:30px;
+	}
+	/* changing the default styles of anchor element */
+	a{
+		color:white;
+		text-decoration:none;
+		font-size:20px;
+		margin:20px;
+	}
+	
+	/* styles for the wrapper */
+	
+	#wrapper{
+		background-color:white;
+		width:900px;
+		margin:auto;
+		padding:30px;
+	}
+	h2{
+		text-align:center;
+		font-size:38px;
+    font-family:"ink free";
+	}
+	figure{
+		width:500px;
+		margin:auto;
+	}
+	/* selects only the img element that are direct child of figure element*/
+	figure > img{
+		width:100%; /* 100% width of parent element*/
+	}
+	
+	/* style for the paragraph element inside the section */
+	.txtStyle{
+		width:500px;
+		text-align:justify;
+		margin:10px auto;
+		//border:1px solid black;
+		font-size:20px;
+	}
+  .sectionDkbg  {
+    background-color: #E39D21;
+    padding:20px;
+    font-family:"Times new roman";
+    margin:20px;
+  }
+  #middleSection{
+     background-color: #E39D21;
+    padding:20px;
+   font-family:"Times new roman";
+    margin:20px;
+  }
+  figcaption{
+    text-align:center;
+  }
+  a{
+    font-family:"times new roman";
+  }
+    </style>
+  </head>
+  <body>
+    <h1>Healthy Bites</h1>
+	  <nav>
+		<a href="#" >Dhokla</a>
+		<a href="#" >Paneer Wrap</a>
+		<a href="#" >Ragi Cookies</a>
+	  </nav>
+	  <div id="wrapper">
+		  <section class="sectionDkbg">
+			  <h2>Dhokla</h2>
+			  <figure>
+				  <img src="Dhokla.png" />
+				  <figcaption class="caption">Steamed Dhokla</figcaption>
+			  </figure>
+			  <p class="txtStyle">One of Gujarat’s most popular Indian snacks, it is made from fermented chickpea and rice batter. Dhokla can be eaten as a snack or for a light breakfast. What makes dhokla healthy is that a single serving contains 283 calories, 11 grams of protein, and zero cholesterol. This snack is also a good source of iron, magnesium, and calcium.</p>
+		  </section>
+		  <section id="middleSection">
+			  <h2>Paneer Wrap</h2>
+			  <figure>
+				  <img src="Paneer.png" />
+				  <figcaption class="caption">Paneer roll with vegetables</figcaption>
+			  </figure>
+			  <p class="txtStyle">This is Bengal’s one of many mouth-watering Indian snacks. A popular street food, when Kathi roll is made at home, it is filled with nutritive benefits. It is made from a variety of sautéed vegetables with chili sauce and wrapped in thin bread made from whole wheat or grain flour. You can opt for a vegetarian or non-vegetarian version of this snack. A single Kathi roll ranges from 260 to 350 calories. It’s high vegetable content will give you lots of fiber, carbohydrates, vitamins like A, C, and E. Whether you choose paneer or chicken, you also get ample amounts of protein.</p>
+		  </section>
+		  <section class="sectionDkbg">
+			  <h2> Ragi Cookies</h2>
+			  <figure>
+				  <img src="Cookies.png" />
+				  <figcaption class="caption">Calcium rich cookies</figcaption>
+			  </figure>
+			  <p class="txtStyle">These cookies are packed with Calcium that is needed for strong bones and teeth in growing children. The goodness of ragi and cane sugar make it the perfect mid-meal snack. It is low in fat, and 100 grams of ragi contains about 330 Kcal of energy, making it a great energy booster.</p>
+		  </section>
+		</div>
+    
+  </body>
+</html>
